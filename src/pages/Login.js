@@ -59,7 +59,7 @@ export function Login() {
                 name="username"
                 type="text"
                 label="Username"
-                placeholder="Enter your username..."
+                placeholder="Enter your username"
                 onChange={onChangeHandler}
               />
 
@@ -67,7 +67,7 @@ export function Login() {
                 name="password"
                 type="password"
                 label="Password"
-                placeholder="Enter your password..."
+                placeholder="Enter your password"
                 onChange={onChangeHandler}
               />
 

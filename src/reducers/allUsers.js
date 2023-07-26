@@ -11,6 +11,10 @@ const allUsers = (state = initialState, action) => {
         users: [payload, ...state.users],
       };
     }
+    case "DELETE_USER": {
+      const userToDelete = action.payload;
+      state.users = state.users.filter((user) => user !== userToDelete)
+    }
 
     default:
       return state;

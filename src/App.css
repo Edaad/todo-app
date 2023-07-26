@@ -2,6 +2,110 @@
   font-family: 'Lexend', "Helvetica Neue";
 }
 
+.logout {
+  margin-top: 30px;
+  margin-right: 10px;
+  width: 190px;
+  background-color: #a4a9e7;
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  padding: 7px 13px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.logout:hover {
+  background-color: #8e94e2;
+}
+
+.delete {
+  width: 190px;
+  background: none;
+  border: none;
+  border-radius: 5px;
+  color: #e85d5d;
+  padding: 7px 13px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.delete:hover {
+  color: #d13e3e;
+}
+
+.alert {
+  padding: 5px;
+}
+
+.alert-buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.alert-button {
+  background-color: #a4a9e7;
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  padding: 7px 13px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.alert-button:hover {
+  background-color: #8e94e2;
+}
+
+.update-button {
+  background-color: #a4a9e7;
+  border: none;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  padding: 7px 13px;
+  text-align: center;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.update-button:hover {
+  background-color: #8e94e2;
+}
+
+.cancel-button {
+  background: none;
+  border: none;
+  border-radius: 5px;
+  color: #a4a9e7;
+  padding: 7px 13px;
+  text-align: center;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.cancel-button:hover {
+  color: #8e94e2;
+}
+
+
+.edit-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin-bottom: 10px;
+}
+
 .display-profile {
   display: flex;
   flex-wrap: wrap;

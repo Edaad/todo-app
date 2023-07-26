@@ -5,8 +5,26 @@ import { Signup } from "./pages/Signup";
 import { Profile } from "./pages/Profile";
 import { Dashboard } from "./pages/Dashboard";
 import ProtectedRoutes from "./utils/ProtectedRoutes";
+import { useEffect } from "react";
 
 function App() {
+
+  useEffect(() => {
+    fetch('https://jsonplaceholder.typicode.com/users?search=hello', {
+      method: 'GET'
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data)
+      }).catch((err) => {
+        console.log(err)
+      })
+    // fetch('https://jsonplaceholder.typicode.com/users', {
+    //   method: 'POST'
+    // })
+
+  }, [])
+
   return (
     <div className="App">
       <Routes>

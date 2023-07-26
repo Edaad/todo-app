@@ -10,10 +10,10 @@ export const addUser = (user) => {
   };
 };
 
-export const deleteUser = (id) => {
+export const deleteUser = (user) => {
   return {
     type: "DELETE_USER",
-    payload: id,
+    payload: user,
   };
 };
 
